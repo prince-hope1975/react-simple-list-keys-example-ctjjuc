@@ -1,0 +1,53 @@
+:root {
+  --form: rgb(255, 255, 255);
+  --comp: rgb(1, 1, 190);
+}
+h1,
+p {
+  font-family: Lato;
+}
+.item {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+body {
+  background: rgb(223, 224, 223);
+}
+.form {
+  gap: 4px;
+  max-width: 70%;
+  margin: 5px auto;
+  background-color: var(--form);
+  padding: 10px;
+  border-radius: 8px;
+}
+.form input {
+  padding: 0.5em;
+  outline: none;
+  width:22em;
+  margin: 7px 0 10px 0;
+}
+
+.form button {
+  background-color: var(--comp);
+  padding: 4px;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  width: 7rem;
+  border-radius: 5px;
+  border: transparent;
+  color: white;
+  font-weight: bold;
+}
+.form button:hover{
+  opacity: 0.8;
+}
+h1 {
+  color: var(--comp);
+}
+label{
+  display: inline-block;
+  width:30%;
+}
